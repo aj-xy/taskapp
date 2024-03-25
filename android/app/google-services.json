@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1067034870488",
+    "project_id": "basics-a8204",
+    "storage_bucket": "basics-a8204.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067034870488:android:886abe4f93982848728dad",
+        "android_client_info": {
+          "package_name": "com.example.pageviewbuilder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrTo3rZNEU081Je4ke5c3ol7IOJWWMmVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067034870488:android:099e15ab66295e09728dad",
+        "android_client_info": {
+          "package_name": "com.example.taskapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrTo3rZNEU081Je4ke5c3ol7IOJWWMmVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
