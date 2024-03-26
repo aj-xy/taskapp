@@ -30,7 +30,8 @@ class _setappState extends State<setapp> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(appBar: AppBar(),
+    return Scaffold(backgroundColor:  Color.fromRGBO(214, 238, 255, 1),
+      appBar: AppBar(backgroundColor:  Color.fromRGBO(214, 238, 255, 1),),
       body: Center(
         child: Column(
           children: [
@@ -46,14 +47,15 @@ class _setappState extends State<setapp> {
                       children: [
                         Text(
                           "Add Tasks",
-                          style: TextStyle(
+                          style: TextStyle(color: Color.fromRGBO(0, 29, 74, 1),
                               fontSize: 30, fontWeight: FontWeight.bold),
                         ),
                         SizedBox(height: 20),
                         TextField(
-                          controller: TitleController,
-                          decoration: InputDecoration(
+                          controller: TitleController, style: TextStyle(color:Color.fromRGBO(255, 255, 255, 1)),
+                          decoration: InputDecoration( filled:true,fillColor: Color.fromRGBO(0, 29, 74, 1),
                               hintText: "Title",
+                                  hintStyle: TextStyle(color: Color.fromRGBO(255, 255, 255, 1)),
                               enabledBorder: OutlineInputBorder(
                                   borderRadius:
                                       BorderRadius.all(Radius.circular(20))),
@@ -66,8 +68,10 @@ class _setappState extends State<setapp> {
                         ),
                         TextField(
                           controller: TaskController,
-                          decoration: InputDecoration(
+                          style: TextStyle(color:Color.fromRGBO(255, 255, 255, 1)),
+                          decoration: InputDecoration(filled:true,fillColor: Color.fromRGBO(0, 29, 74, 1),
                               hintText: "Task",
+                              hintStyle: TextStyle(color: Color.fromRGBO(255, 255, 255, 1)),
                               enabledBorder: OutlineInputBorder(
                                   borderRadius:
                                       BorderRadius.all(Radius.circular(20))),
@@ -80,8 +84,8 @@ class _setappState extends State<setapp> {
                         ),
                         ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                                foregroundColor: Color.fromRGBO(10, 33, 15, 1),
-                                backgroundColor: Color.fromRGBO(74, 64, 99, 1)),
+                                foregroundColor: Color.fromRGBO(236, 255, 176, 1),
+                                backgroundColor:Color.fromRGBO(0, 29, 74, 1),),
                             onPressed:(){ addUser(); Navigator.pop(context);},
                             child: Text("Add")),
                        
